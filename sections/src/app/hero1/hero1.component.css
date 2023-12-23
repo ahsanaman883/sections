@@ -1,172 +1,166 @@
 .carousel {
-    position: relative;
-    width: 100%; /* Set your desired width */
-    height: 800px; /* Set your desired height */
-  }
-  /* Target the carousel container */
-#carouselExampleIndicators {
-    /* Your styles for the carousel container */
-  }
-  
-  /* Target the indicators (the small dots at the bottom) */
-  .carousel-indicators {
-    /* Your styles for the carousel indicators */
-  }
-  
-  /* Target each individual indicator button */
-/* Target the carousel indicators */
-.carousel-indicators button {
-    width: 10px; /* Set the width */
-    height: 10px; /* Set the height */
-    border-radius: 50%; /* Make it round */
-    /* Additional styling */
-    background-color: #fff; /* Set the background color */
-    border: 1px solid #000; /* Set a border */
-    /* Add more styles as needed */
-  }
-  
-  
-  /* Target the carousel inner container */
-  .carousel-inner {
+  position: relative;
   width: 100%;
-  height: 100%;
+  height: 85vh;
+}
+
+#carouselExampleIndicators {
+  /* Your styles for the carousel container */
+}
+
+.carousel-indicators {
+  /* Your styles for the carousel indicators */
+}
+
+.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 85vh;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 85vh;
+}
+
+.carousel-item .img img {
+  width: 100%;
+  height: 85vh;
+}
+
+.slide-content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.slide-content h1 {
+  font-size: 2rem;
+}
+
+.slide-content p {
+  font-size: 1rem;
+}
+
+.slide-content .btn {
+  padding: 7px 25px;
+  background-color: dodgerblue;
+  color: #fff;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+  background-color: #000;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 4rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: 70vh;
   }
-  
-  /* Target each carousel item */
+
+  .carousel-inner {
+    width: 100%;
+    height: 70vh;
+  }
+
   .carousel-item {
-    /* Your styles for each carousel item */
+    width: 100%;
+    height: 70vh;
   }
-  
-  /* Target the image inside each carousel item */
+
   .carousel-item .img img {
     width: 100%;
-    height: 100%;
+    height: 70vh;
   }
-  
-  /* Target the slide content */
+
   .slide-content {
     position: absolute;
-    top: 30%;left: 10%;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    opacity: 0.8;
+    top: 20%;
+    left: 10%;
+    padding: 20px;
   }
-  
-  /* Target the heading (h1) inside slide content */
+
   .slide-content h1 {
-    /* Your styles for the heading */
+    font-size: 1.4rem;
   }
-  
-  /* Target the paragraph (p) inside slide content */
+
   .slide-content p {
-    /* Your styles for the paragraph */
+    font-size: .8rem;
   }
-  
-  /* Target the button inside slide content */
+
   .slide-content .btn {
-    /* Your styles for the button */
+    padding: 5px 20px;
+    font-size: 14px;
   }
-  
-  /* Target the previous and next control buttons */
-  .carousel-control-prev span,
-  .carousel-control-next span {
-      background-color: #000;
-      width: 50px;
-      height: 50px;
-      border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: 55vh;
   }
-  
-  /* Target the icon inside the control buttons */
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-       width: 4rem;
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  /* 
-  
-  
-  
-  
-  
-
-#carouselExampleIndicators {
-
-  }
-  
-
-  .carousel-indicators {
-
-  }
-  
-
-  .carousel-indicators button {
-
-  }
-  
 
   .carousel-inner {
-
+    width: 100%;
+    height: 55vh;
   }
-  
 
   .carousel-item {
-
+    width: 100%;
+    height: 55vh;
   }
-  
 
   .carousel-item .img img {
-
+    width: 100%;
+    height: 55vh;
   }
-  
+}
+
+@media only screen and (max-width: 440px) {
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+  }
+
+  .carousel-inner {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .carousel-item {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .carousel-item .img img {
+    width: 100%;
+    height: 40vh;
+  }
 
   .slide-content {
-
+    display: none;
   }
-  
-
-  .slide-content h1 {
-
-  }
-  
-
-  .slide-content p {
-   
-  }
-  
-
-  .slide-content .btn {
-
-  }
-  
-
-  .carousel-control-prev,
-  .carousel-control-next {
-
-  }
-  
- 
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-
-  }
-  
-  
-  
-  
-  
-  
-  
-  */
+}
