@@ -1,0 +1,50 @@
+
+.container {
+   padding: 100px 0;
+  }
+  
+  /* Selects the h1 element with class 'title' */
+  h1.title {
+    text-align: center;
+  }
+  
+  /* Selects the div element with class 'row' */
+  div.row {
+    /* Your styles here */
+  }
+  
+  /* Selects the inner container with class 'container' */
+  div.container {
+    /* Your styles here */
+  }
+  
+  /* Selects the ul element with class 'nav-tabs' and id 'myTab' */
+  ul.nav.nav-tabs#myTab {
+    /* Your styles here */
+  }
+  
+  /* Selects the list items with class 'nav-item' inside the 'nav-tabs' */
+  li.nav-item {
+    /* Your styles here */
+  }
+  
+  /* Selects the buttons with class 'nav-link' inside the list items */
+  button.nav-link {
+    /* Your styles here */
+  }
+  
+  /* Selects the tab content container with class 'tab-content' and id 'myTabContent' */
+  div.tab-content#myTabContent {
+    /* Your styles here */
+  }
+  
+  /* Selects the tab panes with class 'tab-pane' */
+  div.tab-pane {
+    /* Your styles here */
+  }
+  
+  /* Selects the active tab pane with class 'show active' */
+  div.tab-pane.fade.show.active {
+    /* Your styles here */
+  }
+  
