@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { Hero1Component } from './hero1/hero1.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { CardComponent } from './card/card.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     Hero1Component,
-    TabsComponent
+    TabsComponent,
+    CardComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

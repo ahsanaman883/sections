@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            
+
+
+  <div class="modal" [class.activeModal]="activeModal">
+    <span class="cross-btn" (click)="cross()">&times;</span>
+   <div class="modal-body">
+    <div class="modal-inner">
+       <form action="">
+        <div class="form-row">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" placeholder="Enter email">
+        </div><br>
+        <div class="form-row">
+            <label for="password">Password:</label><br>
+            <input type="text" id="password" placeholder="Enter password">
+        </div><br>
+        <input type="submit" value="Login"><br><br>
+       </form>
+    </div>
+    <button class="cance-btn" (click)="cross()">Cancel</button>
+   </div>
+  </div>
+  <button (click)="toggleClass()">Login</button>
+
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+  <!-- 
+
+
+
+
+  <div class="modal" [class.activeModal]="activeModal">
+    <span class="cross-btn" (click)="cross()">&times;</span>
+   <div class="modal-body">
+    <div class="modal-content">
+        <h1>modal showed</h1>
+    </div>
+    <button class="cance-btn" (click)="cross()">Cancel</button>
+   </div>
+  </div>
+  <button (click)="toggleClass()">Toggle Class</button>
+
+
+
+
+    
+   -->

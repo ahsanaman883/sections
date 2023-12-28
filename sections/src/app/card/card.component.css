@@ -1,0 +1,43 @@
+.container {
+     padding: 100px 0px;
+  }
+  
+  .title {
+    /* Your styles for the title here */
+  }
+  
+  .row {
+    /* Your styles for the row here */
+  }
+  
+  .col-12,
+  .col-md-6,
+  .col-lg-4 {
+    /* Your styles for columns here */
+  }
+  
+  .card {
+     margin: 15px 0px;
+  }
+  
+  .card-img-top {
+    /* Your styles for the card image here */
+  }
+  
+  .card-body {
+    /* Your styles for the card body here */
+  }
+  
+  .card-title {
+    /* Your styles for the card title here */
+  }
+  
+  .card-text {
+    /* Your styles for the card text here */
+  }
+  
+  .btn,
+  .btn-primary {
+    /* Your styles for the button here */
+  }
+  
