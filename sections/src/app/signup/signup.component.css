@@ -1,5 +1,8 @@
 .container  {
     position: relative;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
 }
 .modal {
     position: fixed;

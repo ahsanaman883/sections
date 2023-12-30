@@ -9,6 +9,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { CardComponent } from './card/card.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SignupComponent } from './signup/signup.component';
     TabsComponent,
     CardComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
