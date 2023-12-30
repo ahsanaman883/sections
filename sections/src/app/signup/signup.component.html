@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <button class="signup-btn" (click)="signupshowed()">Sign up</button>
+
+            <div class="modal" [class.signupActive]="signupActiveVariable" id="signup">
+                <span class="cross-btn" (click)="cross()">&times;</span>
+                <div class="signup-container">
+                    <form action="">
+                        <div class="signup-row">
+                            <div class="signup-col">
+                                <label for="fname">First Name</label><br>
+                                <input type="text" placeholder="Deo" id="fname">
+                            </div>
+                            <div class="signup-col">
+                                <label for="lname">Last Name</label><br>
+                                <input type="text" placeholder="John" id="lname">
+                            </div>
+                        </div>
+                        <div class="signup-row">
+                            <div class="signup-col">
+                                <label for="email">Email</label><br>
+                                <input type="email" placeholder="example@example.com" id="email">
+                            </div>
+                            <div class="signup-col">
+                                <label for="phone">Phone</label><br>
+                                <input type="tel" placeholder="1234567890" id="phone">
+                            </div>
+                        </div>
+                        <div class="signup-row">
+                            <div class="signup-col">
+                                <label for="password">Password</label><br>
+                                <input type="password" placeholder="Password" id="password">
+                            </div>
+                            <div class="signup-col">
+                                <label for="confirm-password">Confirm Password</label><br>
+                                <input type="password" placeholder="Confirm Password" id="confirm-password">
+                            </div>
+                        </div><br>
+                        <input type="submit" value="Sign up"><br>
+                    </form>
+                    <button class="cance-btn" (click)="cross()">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
