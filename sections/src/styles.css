@@ -1,1 +1,165 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root    {
+    /*              colors           */
+    --primary-color: ;
+    --secondary-color: ;
+    --tertiary-color: ;
+    --quaternary-color: ;
+
+    /*       gray-scale colors       */
+    --gray-color-1: #777;
+    --gray-color-2: #eee;
+    --gray-color-3: #ccc;
+    --gray-color-4: #555;
+    --gray-color-5: #999;
+
+    /*       white-colors       */
+    --white-color-1: #f0f5f9;
+    --white-color-2: #f5f0f0;
+    --white-color-3: #faf8f9;
+    --white-color-4: #f8f9fa;
+    --white-color-5: #f8f9f8;
+
+    /*         black and white       */
+    --black-color: #000;
+    --white-color: #fff;
+    --transparent-color: rgba(0, 0, 0, 0);
+
+    /*              fonts            */
+    --primary-font: ;
+    --secondary-font: ;
+    --tertiary-font: ;
+    --quaternary-font: ;
+
+    /*              font-families       */
+    --primary-font-family: ;
+    --secondary-font-family: ;
+    --tertiary-font-family: ;
+    --quaternary-font-family: ;
+
+    /*              padding-sizes       */
+    --padding-size-1: 10px;
+    --padding-size-2: 1rem;
+    --padding-size-3: 20px;
+    --padding-size-4: 25px;
+    --padding-size-5: 2rem;
+    --padding-size-6: 38px;
+    --padding-size-7: 3.5rem;
+    --padding-size-8: 4rem;
+    --padding-size-9: 5rem;
+    --padding-size-10: 6rem;
+    
+    /*              margin-sizes       */
+    --margin-size-1: 10px;
+    --margin-size-2: 1rem;
+    --margin-size-3: 20px;
+    --margin-size-4: 25px;
+    --margin-size-5: 2rem;
+    --margin-size-6: 38px;
+    --margin-size-7: 3.5rem;
+    --margin-size-8: 4rem;
+    --margin-size-9: 5rem;
+    --margin-size-10: 6rem;
+}
+::selection     {}
+
+
+h1 {
+    font-size: 3rem; /* Adjust size as needed */
+  }
+  
+  h2 {
+    font-size: 2.5rem; /* Adjust size as needed */
+  }
+  
+  h3 {
+    font-size: 2rem; /* Adjust size as needed */
+  }
+  
+  h4 {
+    font-size: 1.5rem; /* Adjust size as needed */
+  }
+  
+  h5 {
+    font-size: 1.25rem; /* Adjust size as needed */
+  }
+  
+  h6 {
+    font-size: 1rem; /* Adjust size as needed */
+  }
+  p  {
+    font-size: 1rem; /* Adjust size as needed */
+  }
+  a  {  
+    text-decoration: none;
+  }
+  li  {
+    list-style: none;
+  }
+
+  /* Button Styles */
+.main-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover State */
+  .main-btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  /* Width, height, and color of scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track (background) of the scrollbar */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle (thumb) of the scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+.section-padding   {
+    padding: 100px 0px;
+}
+.section-h1  {
+    font-size: 4rem;
+}
+/* ========================= BASIC CODES ============================= */
+
+  
+  
