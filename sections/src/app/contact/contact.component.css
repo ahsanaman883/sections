@@ -1,0 +1,105 @@
+.container {
+    padding: 100px 0px;
+}
+
+.row {
+    /* Your styles for the row class */
+}
+
+.col {
+    /* Your styles for the col class */
+}
+.red   {
+    border: 2px solid red;
+}
+
+form   {
+    width: 700px;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.form-row {
+    width: 100%;
+    display: flex;
+}
+
+.form-col {
+    width: 50%;
+}
+.form-col:nth-child(1)  {
+    margin-right: 10px;
+}
+.form-col:nth-child(2)  {
+    margin-left: 10px;
+}
+label  {
+    color: var(--gray-color-1);
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    border: 1px solid var(--gray-color-3);
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid var(--gray-color-3);
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: cornflowerblue;
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media only screen and (max-width: 768px)    {
+    form   {
+width: 95%;
+    }
+
+    
+.form-row {
+    width: 100%;
+    display: block;
+}
+
+.form-col {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+.form-col:nth-child(1)  {
+    margin-right: 0px;
+}
+.form-col:nth-child(2)  {
+    margin-left: 0px;
+}
+}

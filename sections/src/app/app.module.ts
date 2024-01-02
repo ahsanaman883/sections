@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { SearchComponent } from './search/search.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     LoginComponent,
     SignupComponent,
     SearchComponent,
-    GalleryComponent
+    GalleryComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

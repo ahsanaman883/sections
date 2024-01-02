@@ -1,5 +1,6 @@
 .container {
     padding: 100px 0px;
+  
   }
   
   .row {
@@ -8,6 +9,7 @@
   
   .col-12 {
     margin-bottom: 15px;
+    
   }
   
   .col-md-6 {
